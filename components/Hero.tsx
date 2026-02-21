@@ -22,7 +22,7 @@ export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-white px-6 pt-20 pb-16 md:pt-24 md:pb-20">
       <div
-        className="pointer-events-none absolute inset-0 bg-[url('/bg-6.png')] bg-cover bg-center bg-no-repeat"
+        className="pointer-events-none absolute inset-0 bg-[url('/bg-6.png')] bg-cover bg-center bg-no-repeat opacity-70"
         aria-hidden="true"
       />
       <div
@@ -39,7 +39,7 @@ export default function Hero() {
           APIs.
         </p>
 
-        <div className="animate-fade-up delay-2 mx-auto mt-10 max-w-2xl overflow-hidden rounded-2xl border border-border bg-bg-card shadow-sm">
+        <div className="animate-fade-up delay-2 mx-auto mt-10 max-w-2xl overflow-hidden rounded-2xl border border-white/40 bg-white/50 backdrop-blur-sm">
 
           {/* Command bar */}
           <div className="px-4 py-4 sm:px-6">
