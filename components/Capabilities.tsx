@@ -44,7 +44,7 @@ export default function Capabilities() {
         aria-hidden="true"
       />
       <div className="relative mx-auto max-w-4xl">
-        <h2 className="mb-[30px] text-center text-[36px] leading-[44px] font-semibold tracking-[-0.36px] text-white">
+        <h2 className="mb-[30px] text-center text-[36px] leading-[44px] font-semibold tracking-[-0.36px] text-black">
           APIs that fit your project&apos;s needs
         </h2>
 
