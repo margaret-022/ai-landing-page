@@ -1,6 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import { Claude } from "@lobehub/icons";
+import { Cursor } from "@lobehub/icons";
+import { OpenAI } from "@lobehub/icons";
+import { OpenClaw } from "@lobehub/icons";
+
 
 export default function Hero() {
   const [copied, setCopied] = useState(false);
@@ -35,12 +40,6 @@ export default function Hero() {
         </p>
 
         <div className="animate-fade-up delay-2 mx-auto mt-10 max-w-2xl overflow-hidden rounded-2xl border border-border bg-bg-card shadow-sm">
-          {/* Title bar */}
-          <div className="flex items-center justify-center border-b border-border px-4 py-3">
-            <span className="text-[12px] leading-[18px] font-mono text-text-tertiary">
-              Works on Cursor, Claude Code, Codex, and OpenClaw
-            </span>
-          </div>
 
           {/* Command bar */}
           <div className="px-4 py-4 sm:px-6">
@@ -84,6 +83,18 @@ export default function Hero() {
                 )}
               </button>
             </div>
+          </div>
+        </div>
+
+        <div className="animate-fade-up delay-3 mt-8 flex flex-col items-center gap-4">
+          <p className="text-[13px] leading-[18px] font-mono text-black">
+            Works on
+          </p>
+          <div className="flex items-center justify-center gap-6">
+            <Cursor.Text size={18} />
+            <Claude.Text size={18} />
+            <OpenAI.Text size={18} />
+            <OpenClaw.Text size={18} />
           </div>
         </div>
       </div>
