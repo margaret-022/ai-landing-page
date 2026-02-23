@@ -275,7 +275,7 @@ export default function Terminal() {
   };
 
   return (
-    <section className="px-6 pt-20 pb-16 md:pt-20 md:pb-20">
+    <section className="bg-white px-6 pt-20 pb-16 md:pt-20 md:pb-20">
       <div className="mx-auto max-w-4xl">
         <div className="animate-fade-up delay-3 mb-10 text-center">
           <h2 className="text-[32px] leading-[40px] font-semibold tracking-[-0.32px] text-text-primary md:text-[40px] md:leading-[48px] md:tracking-[-0.4px]">

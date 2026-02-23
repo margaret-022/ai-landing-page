@@ -1,8 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="bg-white px-6 pt-4 pb-12">
+    <footer className="bg-white px-6 pt-6 pb-12">
       <div className="mx-auto max-w-[1170px]">
-        <div className="mb-4 border-t border-[#d6e0ed]" />
         <div className="flex items-center gap-8">
           <a href="/" aria-label="Alchemy home">
             <img src="/greylogo.svg" alt="Alchemy" height={24} />

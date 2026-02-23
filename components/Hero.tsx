@@ -22,7 +22,7 @@ export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-white px-6 pt-20 pb-16 md:pt-24 md:pb-20">
       <div
-        className="pointer-events-none absolute inset-0 bg-[url('/bg-10.png')] bg-cover bg-center bg-no-repeat opacity-70"
+        className="pointer-events-none absolute inset-0 bg-[url('/bg-1.png')] bg-cover bg-center bg-no-repeat opacity-70"
         aria-hidden="true"
       />
       <div className="relative mx-auto max-w-4xl text-center">
