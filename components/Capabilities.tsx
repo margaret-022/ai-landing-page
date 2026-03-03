@@ -40,7 +40,7 @@ export default function Capabilities() {
   return (
     <section className="relative overflow-hidden px-6 pt-6 pb-16 md:pt-20 md:pb-20">
       <div
-        className="pointer-events-none absolute inset-0 bg-[url('/bg-28.png')] bg-cover bg-center bg-no-repeat opacity-70"
+        className="pointer-events-none absolute inset-0 bg-[url('/bg-28.png')] bg-cover bg-center bg-no-repeat opacity-70 -scale-x-100"
         aria-hidden="true"
       />
       <div className="relative mx-auto max-w-4xl">
